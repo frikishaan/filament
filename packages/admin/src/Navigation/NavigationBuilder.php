@@ -2,12 +2,8 @@
 
 namespace Filament\Navigation;
 
-use Illuminate\Support\Traits\Conditionable;
-
 class NavigationBuilder
 {
-    use Conditionable;
-
     /** @var array<string, \Filament\Navigation\NavigationItem[]> */
     protected array $groups = [];
 
