@@ -4,7 +4,7 @@ return [
 
     'field' => [
         'label' => 'Global search',
-        'placeholder' => 'Search',
+        'placeholder' => 'Search (Ctrl+K)',
     ],
 
     'no_results_message' => 'No search results found.',

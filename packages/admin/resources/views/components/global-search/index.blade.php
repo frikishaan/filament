@@ -3,7 +3,7 @@
     {{ \Filament\Facades\Filament::renderHook('global-search.start') }}
 
     @if ($this->isEnabled())
-        <div class="relative">
+        <div class="relative" x-data="{}">
             <x-filament::global-search.input />
 
             @if ($results !== null)
